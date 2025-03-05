@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        align-items: center;
+        padding: 3px;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <p>My cat is <strong>very</strong> grumpy.....</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          <strong>Pariatur neque in esse magni dicta officia optio eos.</strong>
+          <em>Illum id illo, delectus dignissimos itaque accusamus,</em>
+          consequuntur,
+          <strike>provident minima fugiat excepturi dolor.</strike>
+        </p>
+      </div>
+      <div>
+        <table>
+          <caption>
+            Student Details.
+          </caption>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Joel</td>
+              <td>23</td>
+              <td>Kenya</td>
+            </tr>
+            <tr>
+              <td>Muya</td>
+              <td>22</td>
+              <td>SA</td>
+            </tr>
+            <tr>
+              <td>Isaac</td>
+              <td>20</td>
+              <td>Ghana</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Table Footer</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
