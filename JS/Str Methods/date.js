@@ -1,0 +1,6 @@
+const now = new Date();
+const day = now.getDate();
+const month = String(now.getMonth() + 1).padStart(2, "0");
+const year = now.getFullYear();
+console.log(`${day}/${month}/${year}`);
+ 

@@ -23,3 +23,4 @@ proxy2.phone = 746216990;
 
 console.log(proxy1);
 console.log(proxy1.phone)
+console.log(proxy1.isGraduated)

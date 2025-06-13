@@ -6,3 +6,8 @@ const initialFoodPrices = [
 
 let result = initialFoodPrices.filter((foodObj) => foodObj.price > 700);
 console.log(result);
+
+initialFoodPrices
+  .filter((foodObj) => foodObj.price > 700)
+  .map((foodObj) => foodObj.price)
+  .reduce((prev, next) => console.log((prev += next)));

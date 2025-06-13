@@ -3,6 +3,7 @@ let myAge = 23;
 console.log("My name is ${myName} and i am ${myAge} years old.");
 console.log(`My name is ${myName} and i am ${myAge} years old.`);
 
+
 let str1="Mom"
 
 function myFun(str){

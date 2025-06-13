@@ -6,6 +6,7 @@ const initialFoodPrices = [
 
 initialFoodPrices.map((foodObj) => {
   console.log(foodObj.image);
+  console.log(foodObj.name)
   console.log(foodObj.price);
 });
 
@@ -13,7 +14,7 @@ const totalbill1 = initialFoodPrices
   .map((foodObj) => foodObj.price)
   .reduce((prev, next) => prev + next);
 
-console.log(`The total bill is ${totalbill1}`);
+console.log(`The total bill1 is ${totalbill1}`);
 
 let totalbill2=0
 initialFoodPrices.map(foodObj=> foodObj.price).map(price=> totalbill2 += price)
