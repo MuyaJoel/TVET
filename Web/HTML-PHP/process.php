@@ -1,9 +1,9 @@
 <?php
 // Database connection details
-$host = "127.0.0.1:3307";
+$host = "127.0.0.1:3306";
 $user = "root";      
 $pass = "password";        
-$dbname = "TVET";
+$dbname = "Persons";
 
 // Create a database connection
 $conn = new mysqli($host, $user, $pass, $dbname);

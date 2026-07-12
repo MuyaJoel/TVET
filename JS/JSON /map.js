@@ -17,6 +17,6 @@ const totalbill1 = initialFoodPrices
 console.log(`The total bill1 is ${totalbill1}`);
 
 let totalbill2=0
-initialFoodPrices.map(foodObj=> foodObj.price).map(price=> totalbill2 += price)
+initialFoodPrices.map(foodObj => foodObj.price).map(price => totalbill2 += price)
 
 console.log(`Total bill2 is ${totalbill2}`)
